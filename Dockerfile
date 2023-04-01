@@ -2,6 +2,8 @@ FROM openjdk:17-jdk-slim
 
 # Install dependencies
 
+EXPOSE 8080
+
 RUN apt-get update && apt-get install -y \
     curl \
     git \
